@@ -1,0 +1,30 @@
+{
+  "name": "tmp-share-lookup",
+  "short_name": "tmp-share-lookup",
+  "icons": [
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/share-lookup/",
+  "display": "standalone",
+  "background_color": "#209cee",
+  "theme_color": "#209cee",
+  "share_target": {
+    "action": "index.html",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
